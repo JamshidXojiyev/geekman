@@ -15,5 +15,6 @@ $(document).ready(function () {
             $("#buttons-block").removeAttr('style');
             btnMenu = true;
         }
+        
     });
 });
