@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e3f6f5 !important;
+}
+
+ul {
+    list-style-type: none;
+    cursor: pointer !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+#open-close-menu {
+    position: fixed;
+    top: 0;
+    left: -305px;
+    bottom: 0;
+    /* background-color: #272343; */
+    width: 350px;
+    height: 100%;
+    /* overflow-y: auto */
+}
+
+#menu-block {
+    width: 305px;
+    transition: 0.3s cubic-bezier(0, 1, 0.5, 1);
+}
+
+#open-close-btn {
+    position: absolute;
+    top: 25vh;
+    left: 305px;
+    width: 45px;
+    height: 45px;
+    background-color: #272343;
+    border-radius: 0 15% 15% 0;
+}
+
+#open-close-btn svg {
+    margin: 10px 4px 10px 20px;
+    height: 24px;
+    color: #e3f6f5;
+    transition: .5s;
+
+}
+
+
+.scrollspy-example {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    height: 426px;
+    margin-top: -1px;
+    /*overflow: auto;*/
+}
+
+.logo-block {
+    display: block;
+    margin: 1rem 1.25rem;
+}
+
+#close-menu {
+    float: right;
+
+}
+
+#close-menu svg {
+    width: 18px;
+}
+
+#map-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#map-block-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 754px;
+    width: 1536px;
+    /*tilivizor manitoriga*/
+    /*height: 937px;*/
+    /*width: 1920px;*/
+}
+
+.map-block-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.map-block-svg polygon {
+    fill: #0000;
+    stroke: #0000;
+    stroke-width: 2;
+}
+
+.map-block-svg polygon:hover {
+    fill: #00ff118c;
+    stroke: #fff;
+    cursor: pointer;
+}
+
+.close-btn-white svg {
+    color: #131121;
+    width: 18px;
+}
+
+.close-btn-white svg:hover {
+    width: 20px;
+    margin: -1px;
+}
+
+#btn-5-buildings:hover #btn-5-buildings {
+    fill: #bae8e88c;
+    stroke: #fff;
+    cursor: pointer;
+}
+#btn-block {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 32px;
+    cursor: pointer;
+}
+.btn-bottom svg{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #272343;
+    color: #e3f6f5;
+    padding: 6px 12px;
+}
+.building-info {
+    /*font-family: 'Kiwi Maru', serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 12px;
+    font-size: 14px;
+}
